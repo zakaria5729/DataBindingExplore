@@ -10,14 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name=".event_binding.Main4Activity">
+        <activity android:name=".binding_expression.Main5Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
+        <activity android:name=".event_binding.Main4Activity" />
         <activity android:name=".object_binding.Main3Activity" />
         <activity android:name=".data_binding.Main2Activity" />
         <activity android:name=".find_view_by_id.MainActivity" />

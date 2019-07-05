@@ -8,6 +8,7 @@ import android.os.Bundle;
 import com.example.databinding.R;
 import com.example.databinding.databinding.ActivityMain3Binding;
 import com.example.databinding.util.Helper;
+import com.example.databinding.util.Student;
 
 public class Main3Activity extends AppCompatActivity {
 

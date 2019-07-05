@@ -1,4 +1,4 @@
-package com.example.databinding.event_binding;
+package com.example.databinding.binding_expression;
 
 import android.os.Bundle;
 
@@ -12,29 +12,29 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.databinding.R;
-import com.example.databinding.databinding.FragmentFourBinding;
+import com.example.databinding.databinding.FragmentFiveBinding;
 import com.example.databinding.util.EventHandler;
 import com.example.databinding.util.Student;
 
-public class FourFragment extends Fragment {
+public class FiveFragment extends Fragment {
 
-    private FragmentFourBinding binding4;
+    private FragmentFiveBinding binding5;
 
-    public FourFragment() {
+    public FiveFragment() {
         // Required empty public constructor
     }
 
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        binding4 = DataBindingUtil.inflate(inflater, R.layout.fragment_four, container, false);
-        return binding4.getRoot();
+        binding5 = DataBindingUtil.inflate(inflater, R.layout.fragment_five, container, false);
+        return binding5.getRoot();
     }
 
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
 
-        binding4.setFragStudent(new Student("Saharia", 18));
-        binding4.setFragHandler(new EventHandler());
+        binding5.setFragStudent(new Student(null, 0));
+        binding5.setFragHandler(new EventHandler());
     }
 }

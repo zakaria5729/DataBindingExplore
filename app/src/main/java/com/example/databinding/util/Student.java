@@ -1,4 +1,4 @@
-package com.example.databinding.object_binding;
+package com.example.databinding.util;
 
 public class Student {
     private String name;

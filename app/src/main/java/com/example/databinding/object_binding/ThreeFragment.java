@@ -13,6 +13,7 @@ import android.view.ViewGroup;
 
 import com.example.databinding.R;
 import com.example.databinding.databinding.FragmentThreeBinding;
+import com.example.databinding.util.Student;
 
 public class ThreeFragment extends Fragment {
 
