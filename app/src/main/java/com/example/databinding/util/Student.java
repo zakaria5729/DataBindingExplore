@@ -1,15 +1,30 @@
 package com.example.databinding.util;
 
+import androidx.databinding.ObservableField;
+
 public class Student {
-    private String name;
+    private ObservableField<String> name = new ObservableField<>();
     private int age;
+    private String imageUrl;
 
     public Student(String name, int age) {
-        this.name = name;
+        this.name.set(name);
         this.age = age;
     }
 
-    public String getName() {
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
+    }
+
+    public String getImageUrl() {
+        return imageUrl;
+    }
+
+    public void setName(String name) {
+        this.name.set(name);
+    }
+
+    public ObservableField<String> getName() {
         return name;
     }
 
