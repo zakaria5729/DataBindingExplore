@@ -15,7 +15,7 @@ import com.example.databinding.util.Student;
 
 public class Main6Activity extends AppCompatActivity {
 
-    ActivityMain6Binding binding6;
+    private ActivityMain6Binding binding6;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

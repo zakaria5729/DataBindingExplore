@@ -15,6 +15,7 @@ import com.example.databinding.R;
 import com.example.databinding.databinding.FragmentFourBinding;
 import com.example.databinding.databinding.FragmentSevenBinding;
 import com.example.databinding.util.Student;
+import com.example.databinding.util.StudentObserve;
 
 public class SevenFragment extends Fragment {
 
@@ -34,7 +35,7 @@ public class SevenFragment extends Fragment {
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
 
-        Student student = new Student("Abdullah", 13);
+        StudentObserve student = new StudentObserve("Abdullah", 13);
         binding7.setAStudent(student);
     }
 }

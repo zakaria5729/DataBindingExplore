@@ -7,7 +7,7 @@
     <data>
         <variable
             name="aStudent"
-            type="com.example.databinding.util.Student" />
+            type="com.example.databinding.util.StudentObserve" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

@@ -2,4 +2,7 @@
     <string name="app_name">DataBinding</string>
     <string name="nothing">Nothing provided</string>
     <string name="student_info">%1$s is %2$d years old %3$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

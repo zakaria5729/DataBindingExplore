@@ -11,6 +11,7 @@ import com.example.databinding.R;
 import com.example.databinding.databinding.ActivityMain7Binding;
 import com.example.databinding.util.Helper;
 import com.example.databinding.util.Student;
+import com.example.databinding.util.StudentObserve;
 
 public class Main7Activity extends AppCompatActivity {
 
@@ -26,7 +27,7 @@ public class Main7Activity extends AppCompatActivity {
     protected void onStart() {
         super.onStart();
 
-        final Student student = new Student("Hasib", 5);
+        final StudentObserve student = new StudentObserve("Hasib", 5);
         binding7.setAStudent(student);
 
         Helper.replaceFragment(getSupportFragmentManager(), new SevenFragment(), R.id.fragment_container7);

@@ -12,13 +12,14 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name=".observable_field.Main7Activity">
+        <activity android:name=".observable_object.Main8Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
+        <activity android:name=".observable_field.Main7Activity" />
         <activity android:name=".binding_adapter.Main6Activity" />
         <activity android:name=".binding_expression.Main5Activity" />
         <activity android:name=".event_binding.Main4Activity" />
